@@ -1,0 +1,149 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter the value of A ="));
+    var b = parseInt(prompt("Enter the value of B ="));
+    var c = parseInt(prompt("Enter the value of C ="));
+
+
+    function simpalif() {
+
+        if (a > b)
+         {
+            if(a > c)
+            {
+                document.write("a is big"+"<br>");
+            }
+            else
+            {
+                document.write("c is big"+"<br>");
+            }
+        }
+        else
+        {
+            if(b > c)
+            {
+                document.write("b is big"+"<br>");
+            }
+            else
+            {
+                document.write("c is big"+"<br>");
+            }
+        }
+    }
+
+    simpalif();
+
+    function paraif(a,b,c) {
+        if (a > b) 
+        {
+            if (a > c) 
+            {
+                document.write("a is big"+"<br>");
+            }
+            else
+            {
+                document.write("c is big"+"<br>");
+            }
+        }
+        else
+        {
+            if(b > c)
+            {
+                document.write("b is big"+"<br>");
+            }
+            else
+            {
+                document.write("c is big"+"<br>");
+            }
+        }
+    }
+
+    paraif(a,b,c);
+
+    function returnif() {
+        if (a > b)
+        {
+            if (a > c) 
+            {
+               return 1; 
+            }
+            else
+            {
+               return 2;
+            }
+        }
+        else
+        {
+            if(b > c)
+            {
+              return 3;   
+            }
+            else
+            {
+                return 2; 
+            }
+        }
+
+    }
+
+    var ans = returnif();
+    document.write("ans = ");    
+
+    if(ans == 1)
+    {
+        document.write("a is big"+"<br>");
+    }
+    else if(ans == 2)
+    {
+        document.write("c is big"+"<br>");
+    }
+    else if (ans == 3)
+    {
+        document.write("b is big"+"<br>");
+    }
+ 
+
+
+    function returnpara(a,b,c) {
+        if (a > b) 
+        {
+            if(a > c)
+            {
+               return 1;
+            }
+            else
+            {
+                return 2;
+            }
+        }
+        else
+        {
+            if(b > c)
+            {
+               return 3;
+            }
+            else
+            {
+               return 2;
+            }
+        }
+
+    }
+
+    var ans = returnpara(a,b,c)
+    document.write("ans = ");
+
+    if (ans == 1)
+    {
+      document.write("a is big"+"<br>");  
+    } 
+    else if (ans == 2)
+    {
+        document.write("c is big"+"<br>");
+    }
+    else if (ans == 3)
+    {
+        document.write("b is big"+"<br>");
+    }
+
+</script>

@@ -1,0 +1,74 @@
+<script type="text/javascript">
+
+var age = parseInt(prompt("Enter your age ="))
+
+function simpal() {
+    if (age >=18 && age<=100) 
+    {
+        document.write("You can vote"+"<br>");   
+    }
+    else
+    {
+        document.write("You can not vote"+"<br>");
+    }
+}
+simpal();
+
+
+function para(age) {
+    if (age >=18 && age<=100) 
+    {
+        document.write("You can vote"+"<br>");   
+    }
+    else
+    {
+        document.write("You can not vote"+"<br>");
+    }
+}
+para(age);
+
+function returnv() {
+    if (age >=18 && age<=100) 
+    {
+        return 1;  
+    }
+    else
+    {
+        return 2; 
+    }
+}
+var ans = returnv();
+document.write("Ans =")
+
+if(ans == 1)
+{
+    document.write("You can vote"+"<br>");    
+}
+else
+{
+    document.write("You can not vote"+"<br>");
+}
+
+function returnv(age) {
+    if (age >=18 && age<=100) 
+    {
+        return 1;  
+    }
+    else
+    {
+        return 2; 
+    }
+}
+var ans = returnv(age);
+document.write("Ans =")
+
+if(ans == 1)
+{
+    document.write("You can vote"+"<br>");    
+}
+else
+{
+    document.write("You can not vote"+"<br>");
+}
+
+</script>

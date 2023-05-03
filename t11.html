@@ -1,0 +1,84 @@
+<script type="text/javascript">
+
+
+ var a = parseInt(prompt("Enter the value of A = "));
+ var b = parseInt(prompt("Enter the value of B = "));
+ var c = parseInt(prompt("Enter the value of C = "));
+
+function simapl() {
+    if (a + b + c == 180) {
+        document.write("Valid"+"<br>");
+    }
+    else
+    {
+        document.write("Not Valid"+"<br>");
+    }
+}
+
+simapl();
+
+function para(a,b,c) {
+    if (a + b + c == 180) {
+        document.write("Valid"+"<br>");
+    }
+    else
+    {
+        document.write("Not Valid"+"<br>");
+    }
+}
+
+para(a,b,c);
+
+function returnv() {
+    if (a + b + c == 180) {
+        return 1;
+    }
+    else
+    {
+        return 2;
+    }
+
+    return d;
+}
+
+var ans = returnv()
+document.write("Ans =");
+
+if(ans == 1)
+{
+    document.write("Vaild"+"<br>");
+}
+else
+{
+    document.write("Not Vaild"+"<br>");
+}
+
+
+
+function returnv(a,b,c) {
+    if (a + b + c == 180)
+    {
+        return 1;
+    }
+    else
+    {
+        return 2;
+    }
+}
+
+ ans = returnv(a,b,c);
+ document.write("Ans =");
+
+ if(ans == 1)
+ {
+    document.write("Vaild"+"<br>");
+ }
+ else
+ {
+    document.write("Not Vaild"+"<br>");
+ }
+
+
+
+
+</script>

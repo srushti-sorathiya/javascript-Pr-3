@@ -1,0 +1,69 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("enter the value of A = "));
+    var b = parseInt(prompt("enter the value of B = "));
+
+    function swapping() {
+
+
+        var a = parseInt(prompt("enater the value of a ="));
+        var b = parseInt(prompt("enater the value of b ="));
+
+        var t = a;
+        var a = b;
+        var b = t;
+
+        document.write("a =" + a + "<br>");
+        document.write("b =" + b + "<br>");
+    }
+
+    swapping();
+
+
+    function swap(a, b) {
+        var t = a;
+        var a = b;
+        var b = t;
+
+        document.write("a =" + a + "<br>");
+        document.write("b =" + b + "<br>");
+    }
+
+    swap(a, b);
+
+    function swap1() {
+        return a;
+    }
+    function swap2() {
+        return b;
+    }
+    var t = a;
+    var a = b;
+    var b = t;
+
+    var ans1=swap1(a);
+    var ans2=swap2(b);
+
+    document.write("a = "+a+"<br>");
+    document.write("b = "+b+"<br>");
+
+    function withpara(a,b) {
+        return a;
+    }
+    function withpara(a,b) {
+        return b;
+    }
+    var t = a;
+    var a = b;
+    var b = t;
+
+    var ans1 = withpara(a);
+    var ans2 = withpara(b);
+
+    document.write("a = "+a+"<br>");
+    document.write("b = "+b+"<br>");
+
+
+
+   
+</script>

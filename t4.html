@@ -1,0 +1,36 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter the value of a = "));
+    var b = parseInt(prompt("Enter the value of b = "));
+    var c = parseInt(prompt("Enter the value of c = "));
+    var d = parseInt(prompt("Enter the value of d = "));
+
+    function ledder(a,b,c,d) {
+        
+        if(a > b && a > c && a > d)
+        {
+            document.write("a is big"+"<br>");
+        }
+        else if(b > a && b > c && b > d)
+        {
+            document.write("b is big"+"<br>");
+
+        }
+        else if(c > a && c > b && c > d)
+        {
+            document.write("c is big"+"<br>");
+
+        }
+        else
+        {
+            document.write("d is big");
+
+        }
+
+
+    }
+
+    ledder(a,b,c,d);
+    ledder(a,b,c,d);
+
+</script>
